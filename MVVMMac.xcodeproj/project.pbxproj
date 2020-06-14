@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112EBAAF24962A0300EA9BC2 /* HTTPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112EBAAE24962A0300EA9BC2 /* HTTPUtility.swift */; };
+		113FA9952496313400DFA17D /* UserServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112EBAB024962A7200EA9BC2 /* UserServiceMock.swift */; };
+		11B23B4E24962269008C2008 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B23B4D24962269008C2008 /* UserService.swift */; };
+		11B23B51249622A6008C2008 /* UserServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B23B50249622A6008C2008 /* UserServiceProtocol.swift */; };
 		FA56F3462491FE4D00940B36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56F3452491FE4D00940B36 /* AppDelegate.swift */; };
 		FA56F3482491FE4D00940B36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56F3472491FE4D00940B36 /* ViewController.swift */; };
-		FA56F34B2491FE4D00940B36 /* MVVMMac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA56F3492491FE4D00940B36 /* MVVMMac.xcdatamodeld */; };
 		FA56F34D2491FE4E00940B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA56F34C2491FE4E00940B36 /* Assets.xcassets */; };
 		FA56F3502491FE4E00940B36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA56F34E2491FE4E00940B36 /* Main.storyboard */; };
 		FA56F35C2491FE4E00940B36 /* MVVMMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56F35B2491FE4E00940B36 /* MVVMMacTests.swift */; };
 		FA56F3672491FE4E00940B36 /* MVVMMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56F3662491FE4E00940B36 /* MVVMMacUITests.swift */; };
+		FA56F3762491FFB800940B36 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56F3752491FFB800940B36 /* ListViewModel.swift */; };
+		FA56F3782491FFF000940B36 /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56F3772491FFF000940B36 /* GridViewModel.swift */; };
+		FA56F37D249200AB00940B36 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56F37A249200AB00940B36 /* User.swift */; };
+		FA56F37F249200AB00940B36 /* images.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56F37C249200AB00940B36 /* images.swift */; };
+		FA56F40024923E9C00940B36 /* TableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56F3FF24923E9C00940B36 /* TableCellView.swift */; };
+		FA6BD5F52492520500C62E49 /* CollectionViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BD5F32492520500C62E49 /* CollectionViewImage.swift */; };
+		FA6BD5F62492520500C62E49 /* CollectionViewImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6BD5F42492520500C62E49 /* CollectionViewImage.xib */; };
+		FA6BD5F924926C3E00C62E49 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BD5F824926C3E00C62E49 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,20 +45,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112EBAAE24962A0300EA9BC2 /* HTTPUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPUtility.swift; sourceTree = "<group>"; };
+		112EBAB024962A7200EA9BC2 /* UserServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceMock.swift; sourceTree = "<group>"; };
+		11B23B4D24962269008C2008 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		11B23B50249622A6008C2008 /* UserServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceProtocol.swift; sourceTree = "<group>"; };
 		FA56F3422491FE4D00940B36 /* MVVMMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA56F3452491FE4D00940B36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA56F3472491FE4D00940B36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA56F34A2491FE4D00940B36 /* MVVMMac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVVMMac.xcdatamodel; sourceTree = "<group>"; };
 		FA56F34C2491FE4E00940B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA56F34F2491FE4E00940B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA56F3512491FE4E00940B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA56F3522491FE4E00940B36 /* MVVMMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MVVMMac.entitlements; sourceTree = "<group>"; };
 		FA56F3572491FE4E00940B36 /* MVVMMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA56F35B2491FE4E00940B36 /* MVVMMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMMacTests.swift; sourceTree = "<group>"; };
 		FA56F35D2491FE4E00940B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA56F3622491FE4E00940B36 /* MVVMMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA56F3662491FE4E00940B36 /* MVVMMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMMacUITests.swift; sourceTree = "<group>"; };
 		FA56F3682491FE4E00940B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA56F3752491FFB800940B36 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		FA56F3772491FFF000940B36 /* GridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
+		FA56F37A249200AB00940B36 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA56F37C249200AB00940B36 /* images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = images.swift; sourceTree = "<group>"; };
+		FA56F3FF24923E9C00940B36 /* TableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellView.swift; sourceTree = "<group>"; };
+		FA6BD5F32492520500C62E49 /* CollectionViewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewImage.swift; sourceTree = "<group>"; };
+		FA6BD5F42492520500C62E49 /* CollectionViewImage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewImage.xib; sourceTree = "<group>"; };
+		FA6BD5F824926C3E00C62E49 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +96,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11B23B4F2496226F008C2008 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				11B23B50249622A6008C2008 /* UserServiceProtocol.swift */,
+				11B23B4D24962269008C2008 /* UserService.swift */,
+				112EBAAE24962A0300EA9BC2 /* HTTPUtility.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		FA56F3392491FE4D00940B36 = {
 			isa = PBXGroup;
 			children = (
@@ -98,13 +129,14 @@
 		FA56F3442491FE4D00940B36 /* MVVMMac */ = {
 			isa = PBXGroup;
 			children = (
+				FA6BD5F724926C1A00C62E49 /* Resources */,
+				FA56F3F824922CDE00940B36 /* View */,
+				FA56F3792491FFF800940B36 /* Model */,
+				FA56F3742491FF9200940B36 /* ViewModel */,
 				FA56F3452491FE4D00940B36 /* AppDelegate.swift */,
-				FA56F3472491FE4D00940B36 /* ViewController.swift */,
 				FA56F34C2491FE4E00940B36 /* Assets.xcassets */,
-				FA56F34E2491FE4E00940B36 /* Main.storyboard */,
 				FA56F3512491FE4E00940B36 /* Info.plist */,
-				FA56F3522491FE4E00940B36 /* MVVMMac.entitlements */,
-				FA56F3492491FE4D00940B36 /* MVVMMac.xcdatamodeld */,
+				11B23B4F2496226F008C2008 /* Services */,
 			);
 			path = MVVMMac;
 			sourceTree = "<group>";
@@ -114,6 +146,7 @@
 			children = (
 				FA56F35B2491FE4E00940B36 /* MVVMMacTests.swift */,
 				FA56F35D2491FE4E00940B36 /* Info.plist */,
+				112EBAB024962A7200EA9BC2 /* UserServiceMock.swift */,
 			);
 			path = MVVMMacTests;
 			sourceTree = "<group>";
@@ -125,6 +158,44 @@
 				FA56F3682491FE4E00940B36 /* Info.plist */,
 			);
 			path = MVVMMacUITests;
+			sourceTree = "<group>";
+		};
+		FA56F3742491FF9200940B36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA56F3752491FFB800940B36 /* ListViewModel.swift */,
+				FA56F3772491FFF000940B36 /* GridViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA56F3792491FFF800940B36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA56F37C249200AB00940B36 /* images.swift */,
+				FA56F37A249200AB00940B36 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA56F3F824922CDE00940B36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA56F3472491FE4D00940B36 /* ViewController.swift */,
+				FA56F3FF24923E9C00940B36 /* TableCellView.swift */,
+				FA6BD5F32492520500C62E49 /* CollectionViewImage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA6BD5F724926C1A00C62E49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BD5F42492520500C62E49 /* CollectionViewImage.xib */,
+				FA56F34E2491FE4E00940B36 /* Main.storyboard */,
+				FA6BD5F824926C3E00C62E49 /* Utilities.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6BD5F62492520500C62E49 /* CollectionViewImage.xib in Resources */,
 				FA56F34D2491FE4E00940B36 /* Assets.xcassets in Resources */,
 				FA56F3502491FE4E00940B36 /* Main.storyboard in Resources */,
 			);
@@ -257,9 +329,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA56F34B2491FE4D00940B36 /* MVVMMac.xcdatamodeld in Sources */,
+				11B23B4E24962269008C2008 /* UserService.swift in Sources */,
+				FA56F3782491FFF000940B36 /* GridViewModel.swift in Sources */,
+				FA6BD5F924926C3E00C62E49 /* Utilities.swift in Sources */,
+				FA56F37D249200AB00940B36 /* User.swift in Sources */,
 				FA56F3482491FE4D00940B36 /* ViewController.swift in Sources */,
+				FA56F3762491FFB800940B36 /* ListViewModel.swift in Sources */,
+				FA6BD5F52492520500C62E49 /* CollectionViewImage.swift in Sources */,
+				FA56F37F249200AB00940B36 /* images.swift in Sources */,
 				FA56F3462491FE4D00940B36 /* AppDelegate.swift in Sources */,
+				112EBAAF24962A0300EA9BC2 /* HTTPUtility.swift in Sources */,
+				11B23B51249622A6008C2008 /* UserServiceProtocol.swift in Sources */,
+				FA56F40024923E9C00940B36 /* TableCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113FA9952496313400DFA17D /* UserServiceMock.swift in Sources */,
 				FA56F35C2491FE4E00940B36 /* MVVMMacTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,11 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MVVMMac/MVVMMac.entitlements;
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = D9UL2YFT69;
-				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = MVVMMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,11 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MVVMMac/MVVMMac.entitlements;
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = D9UL2YFT69;
-				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = MVVMMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,9 +538,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = D9UL2YFT69;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMMacTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -486,9 +561,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = D9UL2YFT69;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMMacTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -507,9 +583,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = D9UL2YFT69;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMMacUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -527,9 +604,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = D9UL2YFT69;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMMacUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -583,19 +661,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		FA56F3492491FE4D00940B36 /* MVVMMac.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				FA56F34A2491FE4D00940B36 /* MVVMMac.xcdatamodel */,
-			);
-			currentVersion = FA56F34A2491FE4D00940B36 /* MVVMMac.xcdatamodel */;
-			path = MVVMMac.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = FA56F33A2491FE4D00940B36 /* Project object */;
 }
