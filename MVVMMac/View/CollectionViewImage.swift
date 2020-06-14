@@ -16,6 +16,8 @@ class CollectionViewImage: NSCollectionViewItem {
         super.viewDidLoad()
         // Do view setup here.
     }
+    
+    
     func setImage(_ image: Image){
         guard let imageView = self.imageView else{
             return
